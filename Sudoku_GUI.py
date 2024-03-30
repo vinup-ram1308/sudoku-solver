@@ -3,7 +3,7 @@ board=[]
 from tkinter import *
 root = Tk()
 root.title("Sudoku Solver")
-root.geometry("324x550")
+root.geometry("324x450")
 
 
 label = Label(root, text= "Fill in the numbers and click solve").grid(row=0, column=1, columnspan=10)
